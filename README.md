@@ -75,3 +75,4 @@ NEXT_PUBLIC_APP_URL=your_app_url
 This project is licensed under the MIT License — free to use and modify.
 
 <p align="center"> 💙 Built with passion to make dental care smarter, faster, and more accessible. </p>
+
