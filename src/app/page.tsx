@@ -19,7 +19,7 @@ export default async function Home() {
   if (user) redirect("/dashboard");
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background pt-10 md:pt-8">
       <Header />
       <Hero />
       <HowItWorks />
