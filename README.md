@@ -45,7 +45,7 @@ My first painful toothache taught me how hard it is to get timely dental advice.
 - [Clerk](https://clerk.com/) – Authentication & Billing
 - [Vapi](https://vapi.ai/) – AI Voice Agent
 - [Resend](https://resend.com/) – Transactional Emails
-- [Sevalla](https://sevalla.com/) – Deployment
+- [Vercel](https://vercel.com/) – Deployment
 
 **Tooling**
 - Git & GitHub
