@@ -2,21 +2,9 @@
 
 > **AI meets Dentistry.** Chat with an AI dentist or book virtual appointments with certified dental professionals — all from the comfort of your home.
 
-[
-
-![Live Demo](https://img.shields.io/badge/Live%20Demo-dental--care--theta.vercel.app-blue?style=for-the-badge)
-
-](https://dental-care-theta.vercel.app)
-[
-
-![GitHub](https://img.shields.io/badge/GitHub-Mosesp4%2FDentalCare-black?style=for-the-badge&logo=github)
-
-](https://github.com/Mosesp4/DentalCare)
-[
-
-![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
-](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-dental--care--theta.vercel.app-blue?style=for-the-badge)](https://dental-care-theta.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Mosesp4%2FDentalCare-black?style=for-the-badge&logo=github)](https://github.com/Mosesp4/DentalCare)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 ---
 
@@ -68,7 +56,11 @@ My first painful toothache taught me how hard it is to get timely dental advice.
 
 ## 📸 Screenshots
 
-> _Coming soon — screenshots of the landing page, booking flow, admin dashboard, and AI voice agent._
+<img width="1822" height="939" alt="Screenshot (202)" src="https://github.com/user-attachments/assets/747529f8-5ccd-4c9f-b29f-0a4d33ffa33f" />
+<img width="1469" height="802" alt="Screenshot (222)" src="https://github.com/user-attachments/assets/6edc85e8-b26b-44b6-a620-bc8dffefafb5" />
+<img width="1536" height="922" alt="Screenshot (223)" src="https://github.com/user-attachments/assets/dcf8b64e-568f-4712-966e-fa83f8919387" />
+<img width="1764" height="929" alt="Screenshot (263)" src="https://github.com/user-attachments/assets/9e1d9cc9-fdd9-40d5-8cc7-3b5debb55924" />
+<img width="1489" height="912" alt="Screenshot (224)" src="https://github.com/user-attachments/assets/c5e5ef22-c74e-4a77-ad44-69fffe0be7f5" />
 
 ---
 
@@ -81,14 +73,20 @@ My first painful toothache taught me how hard it is to get timely dental advice.
 - Accounts on: [Clerk](https://clerk.com), [Vapi](https://vapi.ai), [Resend](https://resend.com)
 
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/Mosesp4/DentalCare.git
 cd DentalCare
-2. Install dependencies
+```
+
+### 2. Install dependencies
+```bash
 npm install
-3. Set up environment variables
-Create a .env file in the root directory:
+```
+
+### 3. Set up environment variables
+
+Create a `.env` file in the root directory:
+```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
@@ -102,12 +100,24 @@ ADMIN_EMAIL=your_admin_email
 RESEND_API_KEY=your_resend_api_key
 
 NEXT_PUBLIC_APP_URL=your_app_url
-4. Run database migrations
+```
+
+### 4. Run database migrations
+```bash
 npx prisma migrate dev
-5. Start the development server
+```
+
+### 5. Start the development server
+```bash
 npm run dev
-Open http://localhost:3000 to view the app.
-🗂️ Project Structure
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+---
+
+## 🗂️ Project Structure
+```
 DentalCare/
 ├── prisma/          # Database schema & migrations
 ├── public/          # Static assets
@@ -117,13 +127,24 @@ DentalCare/
 │   └── lib/         # Utility functions & config
 ├── .env             # Environment variables (not committed)
 └── README.md
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
-📜 License
-This project is licensed under the MIT License — free to use and modify.
-�
-💙 Built with passion to make dental care smarter, faster, and more accessible. 
-
-Moses Echela · @Mosesp4 
-
 ```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE) — free to use and modify.
+
+---
+
+<div align="center">
+  💙 Built with passion to make dental care smarter, faster, and more accessible.
+  <br/><br/>
+  <strong>Moses Echela</strong> · <a href="https://github.com/Mosesp4">@Mosesp4</a>
+</div>
